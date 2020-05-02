@@ -24,4 +24,12 @@ Example:
 CustomEnchantsAPI.openGui(player, CustomEnchantGui.ENCHANTER);
 ```
 
+### Obtaining a specific custom enchantment 
+
+Example:
+```
+Enchantment enchant = CustomEnchantment.EXPLOSIVE_ARROW;
+```
+
+
 ### It's that simple! Thank you for using CustomEnchantsPlus :)

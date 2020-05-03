@@ -31,5 +31,11 @@ Example:
 Enchantment enchant = CustomEnchantment.EXPLOSIVE_ARROW;
 ```
 
+### Obtaining a scroll 
+
+Example:
+```
+Scroll scroll = Scrolls.ENCHANTMENT_REMOVAL;
+```
 
 ### It's that simple! Thank you for using CustomEnchantsPlus :)

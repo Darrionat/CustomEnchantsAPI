@@ -119,4 +119,28 @@ public class CustomEnchantsAPI {
 	 */
 	public static void updateItemLores(Player player, Inventory inventory) {
 	}
+	
+	/**
+	 * 
+	 * @param item
+	 * @return True if the item is a custom scroll
+	 */
+	public static boolean isAScroll(ItemStack item) {
+	}
+
+	/**
+	 * 
+	 * @param item
+	 * @return The type of scroll the item is. Null if the item is not a scroll
+	 */
+	public static Scroll getScrollType(ItemStack item) {
+	}
+
+	/**
+	 * 
+	 * @param scroll The type of scroll desired
+	 * @return The ItemStack for the scroll, defined in the config.yml
+	 */
+	public static ItemStack getScrollItem(Scroll scroll) {
+	}
 }
